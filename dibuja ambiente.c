@@ -9,7 +9,7 @@
 void imprime_tiempo(int ini,int col_i,int col_f);
 void selectmenumalla();
 int menu(int estado);
-int abrirnivel(void *kemon,void *dmonkey, void *coin, void *pared);
+int abrirnivel(void *kemon,void *dmonkey, void *coin, void *pared,int mallamov[13][22]);
 
 void dibujamalla(char texto[])
 {
@@ -27,6 +27,7 @@ void dibujamalla(char texto[])
         creamalla(&cab);
         int ini,xm,ym,v;
         int cmallaX=20,cmallaY=20;
+        int mallamov[13][22];
         v=1;
 
 /*----------------------------------------------------------------------------------------------------------------------*/
@@ -48,7 +49,7 @@ void dibujamalla(char texto[])
         delay(500);
         getimage(100,50,140,85,pared);
         cleardevice();
-        ini=clock();
+		ini=clock();
 /*-----------------------------------------------------------------------------------------------------------------------*/
 /** Dibuja Espacio del juego y Boton de Salida como Datos del jugador**/
         setcolor(WHITE);
@@ -59,14 +60,21 @@ void dibujamalla(char texto[])
         outtextxy(940,200,"Vidas:");
         outtextxy(980,250,"3");
         outtextxy(940,350,"Monedas:");
-        outtextxy(980,400,"4");
         outtextxy(20+35,620+15, "SALIR");
         outtextxy(940,120,"Name:");
         setcolor(YELLOW);
         outtextxy(1065,120,texto);
-        abrirnivel(kemon,coin,Dmonkey,pared);
+        abrirnivel(kemon,coin,Dmonkey,pared,mallamov);
 /*--------------------------------------------------------------------------------------------------*/
 /** Ciclo Principal del Juego **/
+int a,s;
+for(a=0;a<13;a++)
+{
+    for(s=0;s<22;s++)
+    {
+        printf("%c",mallamov[a][s]);
+    }
+}
 
     do{
         imprime_tiempo(ini,15,0);

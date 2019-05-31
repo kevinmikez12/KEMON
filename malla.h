@@ -6,6 +6,7 @@ typedef struct nodo{
 	struct nodo *abajo;
 	struct nodo *izquierda;
 	struct nodo *derecha;
+	int band;
 }NMalla;
 
 NMalla *creanodo();
@@ -152,6 +153,7 @@ void testmalla(NMalla **cab, int *inix, int *iniy,void *kemon){
             (*cab)=(*cab)->derecha;
             setfillstyle(1,BLACK);
             bar(cx,cy,cx+40,cy+44);
+
         }
         if(t==75 && (*cab)->izquierda){  /*Movimiento hacia Izquierda*/
 

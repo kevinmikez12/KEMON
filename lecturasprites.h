@@ -18,7 +18,7 @@ int abrirSprite(SPRITE *spr, char nombre[20]){
     strcat(res, ".sprite");
 
     FILE *arch;
-    arch = fopen(res, "r");
+    arch = fopen(res, "rb");
     if(arch != NULL){
         // Lee el numero de columnas
         fread(&ren, sizeof(int), 1, arch);

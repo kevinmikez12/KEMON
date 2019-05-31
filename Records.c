@@ -10,16 +10,16 @@ void Records()
     bar(20,20,200,100);
     outtextxy(50,50, "REGRESAR");
 
-    int MX, MY, verf=-1;
+    int MX, MY;
     MX=getmaxx()/2;
     MY=getmaxy()/2;
     char c[2];
     char cp;
 
     FILE *Records;
-    Records=fopen("Records.bin", "rb");
+    Records=fopen("Records.txt", "rt");
     if(Records==NULL){
-        outtextxy(30, 30, "No existe archivo");
+        outtextxy(500,500, "No existe archivo");
     }
     else{
         settextstyle(COMPLEX_FONT, HORIZ_DIR, 4);
@@ -32,11 +32,6 @@ void Records()
                 j+=25;
                 i=0;
             }
-            if(!strcmp(c, "\t")){
-                i+=50;
-                setcolor(GREEN);
-            }
-
             tx=textwidth(c);
             i+=tx;
         }

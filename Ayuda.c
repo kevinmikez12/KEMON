@@ -13,7 +13,6 @@ void Ayuda()
     MX=getmaxx()/2;
     MY=getmaxy()/2;
     char c[2];
-    char cp;
     //Abriendo el achivo.
     FILE *AAyuda;
     AAyuda=fopen("AAyuda.bin", "rb");
