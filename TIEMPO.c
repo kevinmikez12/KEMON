@@ -3,10 +3,13 @@
 #include <graphics.h>
 #include <time.h>
 
-void imprime_tiempo(int ini,int col_i,int col_f)
+int imprime_tiempo(int ini,int col_i,int col_f)
 {
 
     int act,seg;
+    int band=0;
+
+
     char reloj[20];
     act=clock();
     seg=(act-ini)/CLK_TCK;
@@ -14,4 +17,7 @@ void imprime_tiempo(int ini,int col_i,int col_f)
     setfillstyle(1,col_f);
     setcolor(col_i);
     outtextxy(940,40,reloj);
+
+    if(59-seg%60<0)
+        return band=1;
 }

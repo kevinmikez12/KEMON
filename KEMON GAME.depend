@@ -1,0 +1,316 @@
+# depslib dependency file v1.0
+1552149324 source:c:\temp\delete\prog\kemon game\main.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1550108813 c:\program files (x86)\codeblocks-ep\sdk\winbgim\include\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1552149290 source:c:\temp\delete\prog\kemon game\portada.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1557975342 source:c:\users\kevin hernandez\desktop\kemon game\main.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559243466 source:c:\users\kevin hernandez\desktop\kemon game\portada.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1557848198 source:c:\users\kevin hernandez\desktop\kemon game\dibuja menu.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559224430 source:c:\users\kevin hernandez\desktop\kemon game\seleccion menu.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559223684 source:c:\users\kevin hernandez\desktop\kemon game\ayuda.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559242983 source:c:\users\kevin hernandez\desktop\kemon game\dibuja ambiente.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+	<time.h>
+	"malla.h"
+	"lecturasprites.h"
+
+1558021474 source:c:\users\kevin hernandez\desktop\kemon game\manejo de texto.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559242804 source:c:\users\kevin hernandez\desktop\kemon game\tiempo.c
+	<stdlib.h>
+	<stdio.h>
+	<graphics.h>
+	<time.h>
+
+1557849475 source:c:\users\kevin hernandez\desktop\kemon game\seleccion menu pinta malla.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559094784 c:\users\kevin hernandez\desktop\kemon game\malla.h
+
+1559222802 c:\users\kevin hernandez\desktop\kemon game\lecturasprites.h
+
+1559113360 source:c:\users\kevin hernandez\desktop\kemon game\nivel.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<graphics.h>
+
+1559224278 source:c:\users\kevin hernandez\desktop\kemon game\records.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559223684 source:d:\lenguajes de programa\examen 3\kemon game\ayuda.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559224278 source:d:\lenguajes de programa\examen 3\kemon game\records.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1558618838 source:d:\lenguajes de programa\examen 3\kemon game\tiempo.c
+	<stdlib.h>
+	<stdio.h>
+	<graphics.h>
+	<time.h>
+
+1559113438 source:d:\lenguajes de programa\examen 3\kemon game\dibuja ambiente.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+	<time.h>
+	"malla.h"
+	"lecturasprites.h"
+
+1559094784 d:\lenguajes de programa\examen 3\kemon game\malla.h
+
+1559222802 d:\lenguajes de programa\examen 3\kemon game\lecturasprites.h
+
+1557848198 source:d:\lenguajes de programa\examen 3\kemon game\dibuja menu.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1557975342 source:d:\lenguajes de programa\examen 3\kemon game\main.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1558021474 source:d:\lenguajes de programa\examen 3\kemon game\manejo de texto.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559113360 source:d:\lenguajes de programa\examen 3\kemon game\nivel.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<graphics.h>
+
+1557978600 source:d:\lenguajes de programa\examen 3\kemon game\portada.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559224430 source:d:\lenguajes de programa\examen 3\kemon game\seleccion menu.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559223684 source:c:\users\kevin hernandez\desktop\kemon game 2.0\ayuda.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559224278 source:c:\users\kevin hernandez\desktop\kemon game 2.0\records.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559242804 source:c:\users\kevin hernandez\desktop\kemon game 2.0\tiempo.c
+	<stdlib.h>
+	<stdio.h>
+	<graphics.h>
+	<time.h>
+
+1559242983 source:c:\users\kevin hernandez\desktop\kemon game 2.0\dibuja ambiente.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+	<time.h>
+	"malla.h"
+	"lecturasprites.h"
+
+1559094784 c:\users\kevin hernandez\desktop\kemon game 2.0\malla.h
+
+1559222802 c:\users\kevin hernandez\desktop\kemon game 2.0\lecturasprites.h
+
+1557848198 source:c:\users\kevin hernandez\desktop\kemon game 2.0\dibuja menu.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1557975342 source:c:\users\kevin hernandez\desktop\kemon game 2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1558021474 source:c:\users\kevin hernandez\desktop\kemon game 2.0\manejo de texto.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559113360 source:c:\users\kevin hernandez\desktop\kemon game 2.0\nivel.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<graphics.h>
+
+1559243466 source:c:\users\kevin hernandez\desktop\kemon game 2.0\portada.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559224430 source:c:\users\kevin hernandez\desktop\kemon game 2.0\seleccion menu.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559223684 source:c:\users\kevin hernandez\desktop\video juego\kemon final version\ayuda.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559224278 source:c:\users\kevin hernandez\desktop\video juego\kemon final version\records.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559242804 source:c:\users\kevin hernandez\desktop\video juego\kemon final version\tiempo.c
+	<stdlib.h>
+	<stdio.h>
+	<graphics.h>
+	<time.h>
+
+1557848198 source:c:\users\kevin hernandez\desktop\video juego\kemon final version\dibuja menu.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1557975342 source:c:\users\kevin hernandez\desktop\video juego\kemon final version\main.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559243466 source:c:\users\kevin hernandez\desktop\video juego\kemon final version\portada.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559224430 source:c:\users\kevin hernandez\desktop\video juego\kemon final version\seleccion menu.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559337326 source:c:\users\kevin hernandez\desktop\video juego\kemon final version\dibuja ambiente.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+	<time.h>
+	"malla.h"
+	"lecturasprites.h"
+
+1559337566 c:\users\kevin hernandez\desktop\video juego\kemon final version\malla.h
+
+1559222802 c:\users\kevin hernandez\desktop\video juego\kemon final version\lecturasprites.h
+
+1559333229 source:c:\users\kevin hernandez\desktop\video juego\kemon final version\nivel.c
+	<stdlib.h>
+	<string.h>
+	<graphics.h>
+
+1559330974 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\ayuda.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559330974 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\records.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559339500 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\tiempo.c
+	<stdlib.h>
+	<stdio.h>
+	<graphics.h>
+	<time.h>
+
+1559339511 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\dibuja ambiente.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+	<time.h>
+	"malla.h"
+	"lecturasprites.h"
+
+1559330974 c:\users\jovan lopez\desktop\kemon-prueba-vergas\malla.h
+
+1559330974 c:\users\jovan lopez\desktop\kemon-prueba-vergas\lecturasprites.h
+
+1559330974 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\dibuja menu.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559330974 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559330974 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\manejo de texto.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559339500 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\nivel.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<graphics.h>
+
+1559330974 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\portada.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559330974 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\seleccion menu.c
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+
+1559340603 source:c:\users\jovan lopez\desktop\kemon-prueba-vergas\puntos.c
+	<stdlib.h>
+	<stdio.h>
+	<graphics.h>
+	<time.h>
+
