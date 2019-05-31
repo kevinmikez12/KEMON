@@ -1,0 +1,10 @@
+Kemon fue raptado por los D'Monkeys
+unos seres extraterrestres que secuestraban
+especies de otros planetas.
+Tu mision sera ayudar a Kemon, a escapar
+de la nava de los D'Monkeys, sin perder
+la cantidad de vidas y recolectar todas
+las monedas posibles.
+
+Controles:
+- Flechas de Control (Up,Down,Left,Right).

@@ -1,0 +1,4 @@
+kevin 300
+liz 200
+china 150
+edgar 20
