@@ -6,6 +6,7 @@ typedef struct nodo{
 	struct nodo *abajo;
 	struct nodo *izquierda;
 	struct nodo *derecha;
+	int band;
 }NMalla;
 
 NMalla *creanodo();
@@ -139,35 +140,33 @@ int insNodoSec(NMalla **cr, NMalla **ra){		//NMalla **cr nos apunta a la cabeza 
 
 void testmalla(NMalla **cab, int *inix, int *iniy,void *kemon){
     // tam  sprite ancho 20 y alto 20
-    int t;
-    int cx,cy;
-
+    int t,cx=0,cy=0;
+    cx=*inix;
+    cy=*iniy;
     if( kbhit() ){
 
         t=getch();
-        cx=*inix;
-        cy=*iniy;
-        if(t==77 && (*cab)->derecha){ /*Movimiento hacia derecha*/
+        if(t==77 && (*cab)->derecha && (*cab)->derecha->band<=1){ /*Movimiento hacia derecha*/
             *inix+=anchonodo;
             (*cab)=(*cab)->derecha;
             setfillstyle(1,BLACK);
             bar(cx,cy,cx+40,cy+44);
         }
-        if(t==75 && (*cab)->izquierda){  /*Movimiento hacia Izquierda*/
+        if(t==75 && (*cab)->izquierda && (*cab)->izquierda->band<=1){  /*Movimiento hacia Izquierda*/
 
             *inix-=anchonodo;
             (*cab)=(*cab)->izquierda;
             setfillstyle(1,BLACK);
             bar(cx,cy,cx+40,cy+44);
         }
-        if(t==80 && (*cab)->abajo){ /*Movimiento hacia Abajo*/
+        if(t==80 && (*cab)->abajo && (*cab)->abajo->band<=1){ /*Movimiento hacia Abajo*/
 
             *iniy+=altonodo;
             (*cab)=(*cab)->abajo;
             setfillstyle(1,BLACK);
             bar(cx,cy,cx+40,cy+44);
         }
-        if(t==72 && (*cab)->arriba){ /*Movimiento hacia Arriba*/
+        if(t==72 && (*cab)->arriba && (*cab)->arriba->band<=1){ /*Movimiento hacia Arriba*/
 
             *iniy-=altonodo;
             (*cab)=(*cab)->arriba;
@@ -177,5 +176,49 @@ void testmalla(NMalla **cab, int *inix, int *iniy,void *kemon){
 
     }
 putimage(*inix,*iniy,kemon,COPY_PUT);
+
+}
+
+void abrirnivel(void *kemon,void*coin,void *dmonkey,void *pared,NMalla **cab)
+{
+    FILE *arch;
+    NMalla *auxd=*cab;
+    NMalla *auxb=*cab;
+    char num[2];
+    int ancho=40,alto=44,i=20,j=20;
+    //Abriendo el achivo
+    arch=fopen("Nivel.bin", "rb");
+    if(arch!=NULL){
+
+        while(!feof(arch)){
+            fread(num,sizeof(char),1,arch);
+
+            if(!strcmp(num, "\n")){
+                j+=alto;
+                i=20;
+                auxb=auxb->abajo;
+                auxd=auxb;
+            }
+            if(!strcmp(num, "0")){
+                auxd->band=0;
+            }
+            if(!strcmp(num,"1")){
+                putimage(i,j,coin,COPY_PUT);
+                auxd->band=1;
+            }
+            if(!strcmp(num,"2")){
+                putimage(i,j,dmonkey,COPY_PUT);
+                auxd->band=2;
+
+            }
+            if(!strcmp(num,"3")){
+                putimage(i,j,pared,COPY_PUT);
+                auxd->band=3;
+            }
+            auxd=auxd->derecha;
+            i+=ancho;
+        }
+
+    }
 
 }

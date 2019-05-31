@@ -1,7 +1,15 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <graphics.h>
+typedef struct nodo{
+	struct nodo *arriba;
+	struct nodo *abajo;
+	struct nodo *izquierda;
+	struct nodo *derecha;
+	int band;
+}NMalla;
+
 int abrirnivel(void *kemon,void*coin,void *dmonkey,void *pared)
 {
     char num[2];
@@ -33,4 +41,4 @@ int abrirnivel(void *kemon,void*coin,void *dmonkey,void *pared)
 
     }
 
-}
+}*/
